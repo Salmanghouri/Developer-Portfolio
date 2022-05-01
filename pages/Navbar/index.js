@@ -25,12 +25,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/About">
+            <Link href="/Education">
             <a className="stext">Education</a>
             </Link>
           </li>
           <li>
-            <Link href="/About">
+            <Link href="/Experience">
             <a className="stext">Experience</a>
             </Link>
           </li>
@@ -47,6 +47,11 @@ const Navbar = () => {
           <li>
             <Link href="/Github">
             <a className="stext">Github</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/Github">
+            <a className="stext">About</a>
             </Link>
           </li>
         </ul>
