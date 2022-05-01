@@ -1,42 +1,52 @@
 import Link from "next/link";
 import React from "react";
 import { BiCodeAlt } from "react-icons/bi";
+import {GrFormNextLink} from "react-icons/gr"
 
 
 const Navbar = () => {
   return (
-    <header className="text-gray-600 body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+<>
+<header className="text-gray-600 body-font  ">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center shadow-sm bg-tansparent">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <BiCodeAlt className="text-4xl" />
-          <span className="ml-3 text-xl">Salman Ghouri Dev</span>
+          <BiCodeAlt className="text-4xl font-[600] text-teal-900 cursor-pointer" />
+          <span className="ml-3 text-3xl font-extrabold text-teal-600 cursor-pointer">Salman Ghouri Dev</span>
         </a>
 
-        <ul className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-between space-x-6 hover:text-gray-900">
+      
+
+        <ul className="    md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-between space-x-6 font-extrabold   hover:text-gray-900  ">
+          
+          
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a className="stext  ">Home</a>
             </Link>
           </li>
           <li>
             <Link href="/About">
-              <a>About</a>
+            <a className="stext">Education</a>
             </Link>
           </li>
           <li>
-            <Link href="/Contact">
-              <a>Contact</a>
+            <Link href="/About">
+            <a className="stext">Experience</a>
             </Link>
           </li>
           <li>
             <Link href="/Projects">
-              <a>Projects</a>
+            <a className="stext">Projects</a>
             </Link>
           </li>
-         
+          <li>
+            <Link href="/Contact">
+            <a className="stext">Contact</a>
+            </Link>
+          </li>
           <li>
             <Link href="/Github">
-              <a>Github</a>
+            <a className="stext">Github</a>
             </Link>
           </li>
         </ul>
@@ -52,25 +62,17 @@ const Navbar = () => {
 
 
 </div>
-        <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+        <button className="inline-flex items-center text-white bg-teal-600 border-0 py-1 px-3  rounded-lg focus:outline-none hover:bg-teal-700  text-xl font-bold mt-4 md:mt-0">
         <Link href="/Blogs"><a>
           Blogs
           </a>
           </Link>
-          <svg
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            className="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
+          <GrFormNextLink className="text-4xl font-[200]  cursor-pointer" />
         </button>
       </div>
     </header>
+ 
+    </>
   );
 };
 
