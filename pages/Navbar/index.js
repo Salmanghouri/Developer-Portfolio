@@ -16,7 +16,7 @@ const Navbar = () => {
 
       
 
-        <ul className="    md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-between space-x-6 font-extrabold   hover:text-gray-900  ">
+        <ul className="    md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-between space-x-4 font-extrabold   hover:text-gray-900  ">
           
           
           <li>
@@ -49,11 +49,7 @@ const Navbar = () => {
             <a className="stext">Github</a>
             </Link>
           </li>
-          <li>
-            <Link href="/Github">
-            <a className="stext">About</a>
-            </Link>
-          </li>
+         
         </ul>
 <div className="mx-3">
 

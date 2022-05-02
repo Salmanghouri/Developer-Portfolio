@@ -9,6 +9,7 @@ const Experience = () => {
       <p className="mb-10 text-lg md:text-xl text-coolGray-500 font-medium">Web Development, Android Development & Others.</p>
      
     </div>
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
 <div className="container px-5 py-24 mx-auto body-font relative ">
     <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
   <li className="mb-10 ml-6">            
@@ -47,6 +48,7 @@ const Experience = () => {
   
 </ol>
 </div>
+</section>
 </>
   )
 }
