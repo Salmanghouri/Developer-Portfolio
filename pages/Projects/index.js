@@ -8,7 +8,7 @@ const Projects = () => {
     <h3 className="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter">Recent Projects</h3>
     <p className="mb-10 text-lg md:text-xl text-coolGray-500 font-medium">Html, Css, Javascript, MernStack, Solidity, C#.net etc.</p>
     <div className="relative mx-auto md:w-80">
-      <img className="absolute top-1/2 left-4 transform -translate-y-1/2" src="flex-ui-assets/elements/blog/search.svg" alt="" />
+      {/* <img className="absolute top-1/2 left-4 transform -translate-y-1/2" src="flex-ui-assets/elements/blog/search.svg" alt="" /> */}
       <input className="w-full py-3 pl-12 pr-4 text-coolGray-900 leading-tight placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50" type="text" placeholder="Search" />
     </div>
   </div>
@@ -34,9 +34,9 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
-        <span class="inline-block rounded-min bg-green-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NodeJS</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-green-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NodeJS</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Developer Portfolio.</h1>
           <p className="text-gray-700 tracking-wide">I made this for developer community . it was MIT all Beiggner developer can use ...</p>
@@ -67,8 +67,8 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Demo.</h1>
           <p className="text-gray-700 tracking-wide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...</p>
@@ -99,8 +99,8 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Demo.</h1>
           <p className="text-gray-700 tracking-wide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...</p>
@@ -131,8 +131,8 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Demo.</h1>
           <p className="text-gray-700 tracking-wide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...</p>
@@ -165,9 +165,9 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
-        <span class="inline-block rounded-min bg-green-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NodeJS</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-green-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NodeJS</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Developer Portfolio.</h1>
           <p className="text-gray-700 tracking-wide">I made this for developer community . it was MIT all Beiggner developer can use ...</p>
@@ -198,8 +198,8 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Demo.</h1>
           <p className="text-gray-700 tracking-wide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...</p>
@@ -230,8 +230,8 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Demo.</h1>
           <p className="text-gray-700 tracking-wide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...</p>
@@ -262,8 +262,8 @@ const Projects = () => {
     />
         {/* <img className="rounded-t-lg" src="/devport.png" alt="" /> */}
         <div className="py-6 px-8 rounded-lg bg-white">
-        <span class="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
-        <span class="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
+        <span className="inline-block rounded-min bg-blue-600 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">NextJS</span>
+        <span className="inline-block rounded-min bg-green-800 text-gray-100 px-1 py-1 text-xs font-bold mr-3 rounded-lg">MongoDB</span>
         
           <h1 className="text-gray-700 font-extrabold text-xl my-1 mb-2 hover:text-gray-900 hover:cursor-pointer">Demo.</h1>
           <p className="text-gray-700 tracking-wide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...</p>

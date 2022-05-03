@@ -1,5 +1,6 @@
 import React from 'react'
 import {GrFormNextLink} from "react-icons/gr"
+import Image from 'next/image'
 
 const index = () => {
   return (
@@ -63,7 +64,8 @@ const index = () => {
       <h3 className="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter">All Certificates.</h3>
       <p className="mb-10 text-lg md:text-xl text-coolGray-500 font-medium">Cisco, Udemy, IBM, Codedamn etc.</p>
       <div className="relative mx-auto md:w-80">
-        <img className="absolute top-1/2 left-4 transform -translate-y-1/2" src="flex-ui-assets/elements/blog/search.svg" alt="" />
+      {/* className="absolute top-1/2 left-4 transform -translate-y-1/2" search  */}
+       
         <input className="w-full py-3 pl-12 pr-4 text-coolGray-900 leading-tight placeholder-coolGray-500 border border-coolGray-200 rounded-lg shadow-xsm focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50" type="text" placeholder="Search" />
       </div>
     </div>
@@ -73,7 +75,36 @@ const index = () => {
     <section className="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
+          
+          </div>
+        <div className="px-3 py-4">
+          <h3 className="text-sm text-gray-500 pb-2">
+            <a className="bg-indigo-600 py-1 px-2 text-white rounded-lg" href="#">
+              <span className="absolute inset-0" />
+              Basic Level
+            </a>
+          </h3>
+          <p className="text-base font-semibold text-gray-900 group-hover:text-indigo-600">
+            Mid Level Certification from IBM.</p>
+        </div>
+      </article>
+      <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
+        <div className="relative w-full h-80 md:h-64 lg:h-44">
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
@@ -88,7 +119,13 @@ const index = () => {
       </article>
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
@@ -103,7 +140,13 @@ const index = () => {
       </article>
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
@@ -118,7 +161,13 @@ const index = () => {
       </article>
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
@@ -133,7 +182,13 @@ const index = () => {
       </article>
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
@@ -148,7 +203,13 @@ const index = () => {
       </article>
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
@@ -163,22 +224,13 @@ const index = () => {
       </article>
       <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
-        </div>
-        <div className="px-3 py-4">
-          <h3 className="text-sm text-gray-500 pb-2">
-            <a className="bg-indigo-600 py-1 px-2 text-white rounded-lg" href="#">
-              <span className="absolute inset-0" />
-              Basic Level
-            </a>
-          </h3>
-          <p className="text-base font-semibold text-gray-900 group-hover:text-indigo-600">
-            Mid Level Certification from IBM.</p>
-        </div>
-      </article>
-      <article className="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
-        <div className="relative w-full h-80 md:h-64 lg:h-44">
-          <img src="https://cdn.pixabay.com/photo/2021/07/24/01/42/zebra-dove-6488440_960_720.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="w-full h-full object-center object-cover" />
+        <Image
+      
+      src="/certificaion.webp"
+      alt="Picture of the author"
+      width={365}
+      height={220}
+    />
         </div>
         <div className="px-3 py-4">
           <h3 className="text-sm text-gray-500 pb-2">
