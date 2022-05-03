@@ -1,13 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import { Fade, Bounce, Flip, Slide } from "react-awesome-reveal";
-import { VscGithub } from "react-icons/Vsc";
-import { SiLinkedin } from "react-icons/Si";
+import { Bounce } from "react-awesome-reveal";
+// import { VscGithub } from "react-icons/vsc";
+// import { SiLinkedin } from "react-icons/Si";
 import {
-  AiFillTwitterCircle,
-  AiOutlineArrowRight,
-  AiOutlineFilePdf,
-  AiFillStar,
+  AiFillTwitterCircle
+ 
 } from "react-icons/Ai";
 import { BsInstagram, BsFacebook, BsYoutube } from "react-icons/bs";
 
@@ -35,8 +33,8 @@ const Contact = () => {
             </p>
             <div>
               <div className="icons text-[48px] cursor-pointer my-6 space-x-3  flex mx-20">
-                <VscGithub className="text-black  hover:text-[50px] hover:shadow-2xl" />
-                <SiLinkedin className="text-blue-600  hover:text-[50px] hover:shadow-2xl" />
+                {/* <VscGithub className="text-black  hover:text-[50px] hover:shadow-2xl" />
+                <SiLinkedin className="text-blue-600  hover:text-[50px] hover:shadow-2xl" /> */}
                 <AiFillTwitterCircle className="text-blue-500  hover:text-[50px] hover:shadow-2xl" />
                 <BsInstagram className="text-orange-400  hover:text-[50px] hover:shadow-2xl" />
                 <BsFacebook className="text-blue-600  hover:text-[50px] hover:shadow-2xl" />

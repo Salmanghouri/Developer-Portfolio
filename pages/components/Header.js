@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { Fade, Bounce, Flip } from "react-awesome-reveal";
-import { VscGithub } from "react-icons/Vsc";
-import { SiLinkedin } from "react-icons/Si";
+// import { VscGithub } from "react-icons/Vsc";
+// import { SiLinkedin } from "react-icons/Si";
 import { AiFillTwitterCircle,AiOutlineArrowRight,AiOutlineFilePdf,AiFillStar } from "react-icons/Ai";
 import { BsInstagram, BsFacebook, BsYoutube } from "react-icons/bs";
 
@@ -40,8 +40,8 @@ const Header = () => {
                   </button>
                 </div>
                 <div className="icons text-[48px] cursor-pointer my-6 space-x-3  flex">
-                  <VscGithub className="text-black  hover:text-[50px] hover:shadow-2xl" />
-                  <SiLinkedin className="text-blue-600  hover:text-[50px] hover:shadow-2xl" />
+                  {/* <VscGithub className="text-black  hover:text-[50px] hover:shadow-2xl" />
+                  <SiLinkedin className="text-blue-600  hover:text-[50px] hover:shadow-2xl" /> */}
                   <AiFillTwitterCircle className="text-blue-500  hover:text-[50px] hover:shadow-2xl" />
                   < BsInstagram className="text-orange-400  hover:text-[50px] hover:shadow-2xl" />
                   <BsFacebook className="text-blue-600  hover:text-[50px] hover:shadow-2xl" />
