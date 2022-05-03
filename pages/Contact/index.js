@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import { Bounce } from "react-awesome-reveal";
 import { VscGithub } from "react-icons/vsc";
-import { SiLinkedin } from "react-icons/Si";
+import { SiLinkedin } from "react-icons/si";
 import {
   AiFillTwitterCircle
  
-} from "react-icons/Ai";
+} from "react-icons/ai";
 import { BsInstagram, BsFacebook, BsYoutube } from "react-icons/bs";
 
 const Contact = () => {
