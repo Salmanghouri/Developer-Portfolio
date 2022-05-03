@@ -32,14 +32,14 @@ const Contact = () => {
               Android, Cloud and Opensource Development.{" "}
             </p>
             <div>
-              <div className="icons text-[48px] cursor-pointer my-6 space-x-3  flex mx-20">
-                {/* <VscGithub className="text-black  hover:text-[50px] hover:shadow-2xl" />
-                <SiLinkedin className="text-blue-600  hover:text-[50px] hover:shadow-2xl" /> */}
-                {/* <AiFillTwitterCircle className="text-blue-500  hover:text-[50px] hover:shadow-2xl" />
+              {/* <div className="icons text-[48px] cursor-pointer my-6 space-x-3  flex mx-20">
+                <VscGithub className="text-black  hover:text-[50px] hover:shadow-2xl" />
+                <SiLinkedin className="text-blue-600  hover:text-[50px] hover:shadow-2xl" />
+                <AiFillTwitterCircle className="text-blue-500  hover:text-[50px] hover:shadow-2xl" />
                 <BsInstagram className="text-orange-400  hover:text-[50px] hover:shadow-2xl" />
                 <BsFacebook className="text-blue-600  hover:text-[50px] hover:shadow-2xl" />
-                <BsYoutube className="text-red-600  hover:text-[50px] hover:shadow-2xl" /> */}
-              </div>
+                <BsYoutube className="text-red-600  hover:text-[50px] hover:shadow-2xl" />
+              </div> */}
               <form className="items-center  mx-10 space-y-3 sm:justify-center sm:space-x-3 sm:space-y-0 sm:flex lg:justify-start">
                 <input
                   type="text"
