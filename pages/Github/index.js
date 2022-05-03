@@ -2,7 +2,7 @@
 
 const Github = () => {
   return (
-   <></>
+   <><p>Git Hub Page</p></>
   )
 }
 
