@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 import { BiCodeAlt } from "react-icons/bi";
 import {GrFormNextLink} from "react-icons/gr"
 
@@ -10,8 +11,16 @@ const Navbar = () => {
 <header className="text-gray-600 body-font  ">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center shadow-sm bg-tansparent">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <BiCodeAlt className="text-4xl font-[600] text-teal-900 cursor-pointer" />
-          <span className="ml-3 text-3xl font-extrabold text-teal-600 cursor-pointer">Salman Ghouri Dev</span>
+          {/* <BiCodeAlt className="text-4xl font-[600] text-teal-900 cursor-pointer" />
+          <span className="ml-3 text-3xl font-extrabold text-teal-600 cursor-pointer">Salman Ghouri Dev</span> */}
+            <Image
+              src="/myimage.png"
+              alt="Picture of the author"
+              width={70}
+              height={70}
+            />
+            <span className=" text-3xl font-extrabold text-teal-600 cursor-pointer">Salman Ghouri Dev</span> 
+
         </a>
 
       
